@@ -3,7 +3,8 @@
     <div class="outer">
       <div class="link">
         <router-link to="/">自定义</router-link> |
-        <router-link to="/dragMap">dragMap</router-link> 
+        <router-link to="/dragMap">dragMap</router-link> |
+        <router-link to="/takephoto">takephoto</router-link>
       </div>
     </div>
     <router-view></router-view>

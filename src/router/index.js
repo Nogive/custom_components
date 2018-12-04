@@ -4,6 +4,7 @@ Vue.use(VueRouter);
 
 import dragMap from "@/components/dragMap.vue";
 import HelloWorld from "@/components/HelloWorld.vue";
+import takephoto from "@/components/takePhoto.vue";
 export default new VueRouter({
   routes: [
     {
@@ -15,6 +16,11 @@ export default new VueRouter({
       path: "/dragMap",
       name: "dragMap",
       component: dragMap
+    },
+    {
+      path: "/takephoto",
+      name: "takephoto",
+      component: takephoto
     }
   ]
 });
